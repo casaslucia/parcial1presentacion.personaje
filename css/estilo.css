@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* X-Large  (large desktops, 1200px and up)*/
+@media (min-width: 1500px) and (max-width: 1600px) {
+ 
+  
+main {
+	width:90%;
+	height: 1340px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1599px;
+	background-image: url(../img/fondo.jpg);
+}
+
+body{
+	width: 90%;
+	background-color: #D9BDE0;
+}
+
+header {
+	float: left;
+	width: 100%;
+	height: 130px;
+
+}
+
+#nickinicio{
+	float: right;
+	margin-top: 40px;
+	margin-right: 50px;
+}
+
+#florch{
+	float: left;
+	margin-left: 2%;	
+	margin-top: 2%;
+}
+
+#flor1{
+	float: left;
+	margin-top: 27%;
+	margin-left: 3%;	
+}
+
+#contenedorinicio{
+	float: left;
+	margin-left: 5%;
+	margin-top: 5%;
+	width: 60%;
+	
+}
+
+.doraimg{
+	float: left;
+	margin-left: 20px;
+
+}
+
+.doralogo{
+	float: right;
+	margin-top: 60px;
+	font-family: 'Fredoka One';
+	color: #59569D;
+	font-size: 20px;
+}
+
+
+section{
+	width: 100%;
+	height: 1340px;
+
+}
+
+#florright{
+	float: right;
+	margin-right: 2%;
+	margin-top: 2%;	
+}
+
+#contenedor1{
+	float: left;
+	margin-top: 2%;
+	margin-left: 10%;
+	width: 90%;
+	height: 25%;
+}
+
+#boxvideo{
+	background: rgb(139,114,191);
+	background: linear-gradient(180deg, rgba(139,114,191,1) 0%, rgba(173,151,219,1) 35%, rgba(242,117,211,0.2752451322325805) 67%, rgba(236,70,191,0.4125000341933649) 100%);
+	float: left;
+	width: 400px;
+	height: 300px;
+	border-radius: 30px;
+	margin-left: 15px;
+	box-shadow: 2px 2px 8px white;
+}
+
+.titulovideo{
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	font-size: 18px;
+	float: left;
+	margin-left: 80px;
+	margin-top: 15px;
+	width: 400px;
+}
+
+.video{
+	margin-top: 15px;
+	margin-left: 20px;
+	float: left;
+}
+
+#amigos p{
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	float: left;
+	margin-top: 10px;
+	margin-left: 170px;
+	width: 320px;
+	padding: 10px;
+	background-color: #E93393;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 2px 2px 8px white;
+
+}
+
+.galeriaamigos{
+	width: 460px;
+	height: 200px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 110px;
+}
+
+#contenedor2{
+	float: left;
+	margin-left: 10%;
+	width: 90%;
+	height: 25%;
+}
+
+#personalidad{
+	width: 100px;
+	height: 300px;
+	float: left;
+
+}
+
+
+.comoesdora {
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 160px;
+	padding: 10px;
+	background-color: #E93393;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 2px 2px 8px white;
+}
+
+
+.flechita{
+	float: left;
+	margin-left: 40px;
+
+}
+
+
+
+.txtpersonalidad{
+	font-family: 'Poppins', sans-serif;
+	color: #342665;
+	float: left;
+	margin-top: 10px;
+	margin-left: 25px;
+	width: 430px;
+}
+
+#boxaspecto{
+	background: rgb(139,114,191);
+	background: linear-gradient(180deg, rgba(139,114,191,1) 0%, rgba(173,151,219,1) 35%, rgba(242,117,211,0.2752451322325805) 67%, rgba(236,70,191,0.4125000341933649) 100%);
+	float: right;
+	margin-right: 10%;
+	width: 400px;
+	height: 275px;
+	border-radius: 30px;
+	margin-right: 50px;
+	box-shadow: 2px 2px 8px white;
+}
+
+.tituloaspecto{
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	font-size: 18px;
+	float: left;
+	margin-left: 115px;
+	margin-top: 15px;
+	width: 400px;
+}
+
+.galeriaaspecto{
+	float: left;
+	margin-left: 18px;
+}
+
+
+
+
+
+footer {
+	width: 100%;
+	height: 50px;
+	background-color: #F7E4F3;
+}
+
+#logonick{
+	margin-left: 30px;
+	margin-top: 12px;
+	float: left;
+}
+#logouces{
+	margin-right: 30px;
+	margin-top: 7px;
+	float: right;
+}
+#minombre p{
+	font-family: 'Poppins', sans-serif;
+	color: #59569E;
+	margin-right: 20px;
+	margin-top: 10px;
+	float: right;
+	font-size: 18px;
+
+}
+
+}
+ /*cierre de tamaño XL escritorio */
+
+
+ 
+
+ /*Large  (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1499px) {
+
+main {
+	width:90%;
+	height: 1340px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1498px;
+	background-image: url(../img/fondo.jpg);
+}
+
+body{
+	width: 90%;
+	background-color: #D9BDE0;
+}
+
+header {
+	float: left;
+	width: 100%;
+	height: 130px;
+
+}
+
+#nickinicio{
+	float: right;
+	margin-top: 40px;
+	margin-right: 50px;
+}
+
+#florch{
+	float: left;
+	margin-left: 2%;	
+	margin-top: 2%;
+}
+
+#flor1{
+	float: left;
+	margin-top: 27%;
+	margin-left: 3%;	
+}
+
+#contenedorinicio{
+	float: left;
+	margin-left: 5%;
+	margin-top: 5%;
+	width: 60%;
+	
+}
+
+.doraimg{
+	float: left;
+	margin-left: 20px;
+
+}
+
+.doralogo{
+	float: right;
+	margin-top: 60px;
+	font-family: 'Fredoka One';
+	color: #59569D;
+	font-size: 20px;
+}
+
+
+section{
+	width: 100%;
+	height: 1340px;
+
+}
+
+#florright{
+	float: right;
+	margin-right: 2%;
+	margin-top: 2%;	
+}
+
+#contenedor1{
+	float: left;
+	margin-top: 2%;
+	margin-left: 10%;
+	width: 90%;
+	height: 25%;
+}
+
+#boxvideo{
+	background: rgb(139,114,191);
+	background: linear-gradient(180deg, rgba(139,114,191,1) 0%, rgba(173,151,219,1) 35%, rgba(242,117,211,0.2752451322325805) 67%, rgba(236,70,191,0.4125000341933649) 100%);
+	float: left;
+	width: 400px;
+	height: 300px;
+	border-radius: 30px;
+	margin-left: 15px;
+	box-shadow: 2px 2px 8px white;
+}
+
+.titulovideo{
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	font-size: 18px;
+	float: left;
+	margin-left: 80px;
+	margin-top: 15px;
+	width: 400px;
+}
+
+.video{
+	margin-top: 15px;
+	margin-left: 20px;
+	float: left;
+}
+
+#amigos p{
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	float: left;
+	margin-top: 10px;
+	margin-left: 170px;
+	width: 320px;
+	padding: 10px;
+	background-color: #E93393;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 2px 2px 8px white;
+
+}
+
+.galeriaamigos{
+	width: 460px;
+	height: 200px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 110px;
+}
+
+#contenedor2{
+	float: left;
+	margin-left: 10%;
+	width: 90%;
+	height: 25%;
+}
+
+#personalidad{
+	width: 100px;
+	height: 300px;
+	float: left;
+
+}
+
+
+.comoesdora {
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 160px;
+	padding: 10px;
+	background-color: #E93393;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 2px 2px 8px white;
+}
+
+
+.flechita{
+	float: left;
+	margin-left: 40px;
+
+}
+
+
+
+.txtpersonalidad{
+	font-family: 'Poppins', sans-serif;
+	color: #342665;
+	float: left;
+	margin-top: 10px;
+	margin-left: 25px;
+	width: 430px;
+}
+
+#boxaspecto{
+	background: rgb(139,114,191);
+	background: linear-gradient(180deg, rgba(139,114,191,1) 0%, rgba(173,151,219,1) 35%, rgba(242,117,211,0.2752451322325805) 67%, rgba(236,70,191,0.4125000341933649) 100%);
+	float: right;
+	margin-right: 10%;
+	width: 400px;
+	height: 275px;
+	border-radius: 30px;
+	margin-right: 50px;
+	box-shadow: 2px 2px 8px white;
+}
+
+.tituloaspecto{
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	font-size: 18px;
+	float: left;
+	margin-left: 115px;
+	margin-top: 15px;
+	width: 400px;
+}
+
+.galeriaaspecto{
+	float: left;
+	margin-left: 18px;
+}
+
+footer {
+	width: 100%;
+	height: 50px;
+	background-color: #F7E4F3;
+}
+
+#logonick{
+	margin-left: 30px;
+	margin-top: 12px;
+	float: left;
+}
+#logouces{
+	margin-right: 30px;
+	margin-top: 7px;
+	float: right;
+}
+#minombre p{
+	font-family: 'Poppins', sans-serif;
+	color: #59569E;
+	margin-right: 20px;
+	margin-top: 10px;
+	float: right;
+	font-size: 18px;
+
+}
+
+
+
+
+
+
+
+
+
+}
+/*cierre de tamaño L escritorio */
+
+
+
+
+
+
+
+
+
+
